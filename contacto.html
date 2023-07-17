@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108589404-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-108589404-1');
+</script>
+	<title>Projeto Web Design Express</title>
+	<meta charset="utf-8">
+	<meta name="author" content="Danki Code">
+	<meta name="description" content="Descrição do site aqui...">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
+	<meta name="keywords" content="palavra-chave,lorem,ipsum">
+	<!--colocar aqui meta tags SEO-->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="logo"><a href="index.html"><img src="/logo.png" alt="AlphaOmega"></a></div>
+			<nav class="menu-desktop">
+				<ul>
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+					<li>
+						<a href="sobre.html">Sobre</a>
+					</li>
+					<li class="selected">
+						<a href="contato.html">Contato</a>
+					</li>
+				</ul>
+			</nav>
+			<nav class="menu-mobile">
+				<h2><i class="fa fa-bars"></i></h2>
+				<ul>
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+					<li>
+						<a href="sobre.html">Sobre</a>
+					</li>
+					<li class="selected">
+						<a href="contato.html">Contato</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="clear"></div>
+		</div>
+	</header>
+		<section style="background-image:url('images/img1.jpg');" class="title-page">
+		<div class="overlay__title-page"></div>
+		<div class="container">
+			<h2>Contacto</h2>
+			<p>No dudes en comunicarte con nosotros a través de nuestro número de teléfono o correo electrónico que encontrarás en nuestro sitio web oficial.</p>
+		</div><!--container-->
+	</section>
+	<section class="contato">
+		<div class="container">
+
+			<div class="w40 tags-form">
+				<h2><i class="fa fa-comment"></i> Contacto directo !</h2>
+				<p>Si eres un artista en busca de oportunidades de audición o colaboración, te invitamos a contactarnos. <br> En Alpha Omega, siempre estamos en busca de nuevos talentos y estamos abiertos a colaboraciones creativas. Estaremos encantados de revisar tu currículum y portafolio, y considerarte para futuros proyectos.</p>
+
+				<p class="tag-contato"><i class="fa fa-facebook"></i> /teatro Musical AlphaOmega</p>
+				<p class="tag-contato"><i class="fa fa-whatsapp"></i> /teatro Musical AlphaOmega</p>
+				<p class="tag-contato"><i class="fa fa-instagram"></i> /teatro Musical AlphaOmega</p>
+				<p class="tag-contato"><i class="fa fa-twitter"></i> /teatro Musical AlphaOmega</p>
+			</div>
+
+			<div class="clear"></div>
+		</div>
+	</section>
+	<footer class="footer1">
+		<div class="container">
+			<div class="w33">
+				<h2>Direccion</h2>
+				<p><i class="fa fa-map-pin" aria-hidden="true"></i> Vicuña Rozas 6456, Cerro Navia, <br> Región Metropolitana - Santiago</p>
+				<p><i class="fa fa-phone" aria-hidden="true"></i> (+56) 9.7614-8700</p>
+			</div>
+			<div class="w33">
+				<h2>Links Utiles</h2>
+				<a href="https://www.cerronavia.cl/">Municioalidad de Cerro Navia</a>
+				<a href="http://casonadubois.blogspot.com/">CASONA DUBOIS / Centro Cultural <br> de Quinta Normal</a>
+			</div>
+			<div class="w33">
+				<h2>Conecte-se conosco</h2>
+				<div class="group-icons">
+					<a href="https://www.facebook.com/AlfaOmegaTM/"><i class="fa fa-facebook"></i></a>
+					<a href="https://www.instagram.com/teatromusical_alfaomega/?hl=es-la&__coig_restricted=1"><i class="fa fa-instagram"></i></a>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</footer>
+	<footer class="footer2">
+		<div class="container">
+			<p>Todos los directos reservados</p>
+		</div>
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script>
+		$('nav.menu-mobile h2').click(function(){
+			$('nav.menu-mobile ul').slideToggle();
+		});
+	</script>
+</body>
+</html>
