@@ -123,7 +123,7 @@ section.main-bg{
 	position: relative;
 	width: 100%;
 	padding:140px 0 200px 0;
-	background-image: url('/images/teatro musica.jpg');
+	background-image: url('images/teatro musica.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
