@@ -420,7 +420,7 @@ section.paralax{
 	padding: 30px 0;
 	width: 100%;
 	min-height: 200px;
-	background-image: url('/images/bg1.jpg');
+	background-image: url('images/bg1.jpg');
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
